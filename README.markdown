@@ -56,3 +56,6 @@ Der Code ist in der Datei `traffic_light_with_pedestrian.ino`. Er verwendet `dig
 - Stelle sicher, dass die LEDs und der Taster korrekt verkabelt sind.
 - Drücke **Strg + Leertaste** in der Arduino IDE für Autovervollständigung (englisch: autocomplete).
 - Dieses Projekt ist Teil eines Lernkurses (z. B. Duolingo oder ELEGOO Kit).
+
+
+<iframe src="https://www.youtube.com/embed/IwjWx7FZl-g" allowfullscreen></iframe>
