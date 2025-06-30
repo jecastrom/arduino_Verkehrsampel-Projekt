@@ -56,3 +56,5 @@ The code is in the file `traffic_light_with_pedestrian.ino`. It uses `digitalWri
 - Ensure the LEDs and button are correctly wired.
 - Press **Ctrl + Space** in the Arduino IDE for autocomplete.
 - This project is part of a learning course (e.g., Duolingo or ELEGOO Kit).
+
+  https://www.youtube.com/shorts/IwjWx7FZl-g
