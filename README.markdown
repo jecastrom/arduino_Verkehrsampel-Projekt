@@ -53,11 +53,3 @@ Der Code ist in der Datei `traffic_light_with_pedestrian.ino`. Er verwendet `dig
 - Drücke **Strg + Leertaste** in der Arduino IDE für Autovervollständigung (englisch: autocomplete).
 - Dieses Projekt ist Teil eines Lernkurses (z. B. Duolingo oder ELEGOO Kit).
 
----
-
-**Vokabelhilfe**:
-- **Verkehrsampel**: Traffic light
-- **Fußgängerüberweg**: Pedestrian crossing
-- **Taster**: Button
-- **Verzögerung**: Delay
-- **Masse**: Ground (GND)
