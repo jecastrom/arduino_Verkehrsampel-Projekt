@@ -58,4 +58,4 @@ Der Code ist in der Datei `traffic_light_with_pedestrian.ino`. Er verwendet `dig
 - Dieses Projekt ist Teil eines Lernkurses (z. B. Duolingo oder ELEGOO Kit).
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IwjWx7FZl-g" allowfullscreen></iframe>
+<iframe width="300" height="533" src="https://www.youtube.com/embed/IwjWx7FZl-g" allowfullscreen></iframe>
