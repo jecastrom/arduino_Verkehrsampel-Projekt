@@ -11,8 +11,8 @@ Dieses Projekt simuliert eine **Verkehrsampel** (traffic light) für Autos und e
   - Grün (Autos): Pin 7
   - Rot (Fußgänger): Pin 5
   - Grün (Fußgänger): Pin 6
-- **Taster**: Ein vierbeiniger Taster an Pin 2.
-- **Widerstände**: 220 Ohm für LEDs, 10k Ohm für den Taster.
+  - Jede LED hat einen **330-Ohm-Widerstand** (Schutz für LEDs).
+- **Taster**: Ein vierbeiniger Taster an Pin 2 mit einem **10k-Ohm-Widerstand**.
 - **Breadboard und Kabel**: Zum Verbinden der Komponenten.
 
 ## Wie es funktioniert
@@ -31,12 +31,16 @@ Dieses Projekt simuliert eine **Verkehrsampel** (traffic light) für Autos und e
 - Der Zyklus startet nur, wenn der Taster gedrückt wird.
 
 ## Verkabelung
-- **LEDs**: Jede LED hat einen 220-Ohm-Widerstand und ist mit Masse (GND) verbunden.
+- **LEDs**: Jede LED hat einen **330-Ohm-Widerstand** und ist mit Masse (GND) verbunden.
 - **Taster**: 
   - Oberer linker Fuß zu Pin 2.
   - Unterer rechter Fuß zu 5V.
-  - 10k-Ohm-Widerstand von Pin 2 zu Masse (GND).
+  - **10k-Ohm-Widerstand** von Pin 2 zu Masse (GND).
 - Alle Verbindungen laufen über ein Breadboard.
+
+## Warum Widerstände?
+- **330-Ohm-Widerstand für LEDs**: Der Widerstand schützt die LEDs vor zu viel Strom. Ohne Widerstand können LEDs kaputtgehen (englisch: burn out).
+- **10k-Ohm-Widerstand für Taster**: Der Widerstand hält Pin 2 auf LOW (0V), wenn der Taster nicht gedrückt ist. Das macht das Signal stabil und verhindert Fehler (englisch: floating signal).
 
 ## Code
 Der Code ist in der Datei `traffic_light_with_pedestrian.ino`. Er verwendet `digitalWrite()` für LEDs und `digitalRead()` für den Taster. Die Verzögerungen sind in Millisekunden (z. B. 5000 = 5 Sekunden).
@@ -52,4 +56,3 @@ Der Code ist in der Datei `traffic_light_with_pedestrian.ino`. Er verwendet `dig
 - Stelle sicher, dass die LEDs und der Taster korrekt verkabelt sind.
 - Drücke **Strg + Leertaste** in der Arduino IDE für Autovervollständigung (englisch: autocomplete).
 - Dieses Projekt ist Teil eines Lernkurses (z. B. Duolingo oder ELEGOO Kit).
-
