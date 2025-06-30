@@ -58,4 +58,4 @@ Der Code ist in der Datei `traffic_light_with_pedestrian.ino`. Er verwendet `dig
 - Dieses Projekt ist Teil eines Lernkurses (z. B. Duolingo oder ELEGOO Kit).
 
 
-<iframe width="300" height="533" src="https://www.youtube.com/embed/IwjWx7FZl-g" allowfullscreen></iframe>
+<video controls src="[https://github.com/your-username/your-repo/blob/main/your-video.mp4](https://github.com/jecastrom/arduino_Verkehrsampel-Projekt/blob/main/video.MP4)" type="video/mp4"></video>
